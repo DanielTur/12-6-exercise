@@ -3,5 +3,5 @@
 Simple Country search engine -  using Restcountries API
 
 To do:
-- [ ] Fix display of Country Flag
+- [x] Fix display of Country Flag
 - [ ] Update Css with styling
