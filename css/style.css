@@ -1,35 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	background-color: #00aced;
+	background-color: lightgrey;
 	font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
-	color: white;
+h1, h2 {
+	color: grey;
+	text-align: center;
+	margin-top: 100px;
+}
+
+div.search-block {
 	text-align: center;
 }
 
-h2.quote {
-	margin-top: 200px;
-}
-
-h3.author {
-	margin-bottom: 100px;
-}
-
-/*h2, h3 {
-	color
-	text-align: center;
-}
-*/
-a.tweet {
+button#search {
+	margin: 20px;
+	padding: 10px 20px;
+	border: 2px solid white;
+	background-color: grey;
+	cursor: pointer;
 	color: white;
-	padding: 10px 46px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	display: inline-block;
+	outline: none;
+	width: 200px;
+}
+
+button#search:hover {
+	background-color: lightgrey;
+}
+
+input#country-name {
+	display: inline-block;
+	/*font-size: 13;*/
+	text-transform: uppercase;
+	padding: 10px 20px;
+	outline: none;
+}
+
+ul#countries {
+	text-align: center;
+	margin: 0 auto;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+div#flag {
+	
+}
+
+div#flag > img {
 	display: block;
-	text-align: center;
-	text-decoration: none;
+	margin: auto;
+	width: 80px;
 }
 
-button.trigger {
+
+
+
+
+/*button.trigger {
 	margin: 20px;
 	padding: 12px 30px;
 	border: 1px solid white;
@@ -49,8 +85,7 @@ button.trigger:hover {
 }
 
 button.tweet {
-	/*padding: 5px 5px;*/
-	/*margin: 20px;*/
+	padding: 5px 5px;
 	border: 1px solid white;
 	background-color: #00aced;
 	cursor: pointer;
@@ -70,12 +105,4 @@ button.tweet:hover {
 button.tweet:hover i, button.tweet:hover a {
 	color: #00aced ;
 }
-
-/*a.tweet {
-	margin: 10px 40px;
-}
 */
-
-/*p {
-	text-align: center;
-}*/

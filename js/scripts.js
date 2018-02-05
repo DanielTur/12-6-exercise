@@ -24,6 +24,7 @@ $(function() {
 			$('<li>').text('Population : ' + item.population).appendTo(countriesList);
 			$('<li>').text('Currency : ' + item.currencies).appendTo(countriesList);
 			$('<li>').text('Country Code : ' + item.alpha2Code).appendTo(countriesList);
+			$('#flag > img').remove();
 			$('<img src="http://www.countryflags.io/' + item.alpha2Code + '/flat/64.png">').appendTo('#flag');
 		});
 	};
