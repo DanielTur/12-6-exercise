@@ -51,58 +51,8 @@ ul#countries {
 	font-size: 18px;
 }
 
-div#flag {
-	
-}
-
-div#flag > img {
+ul#countries > li > img {
 	display: block;
 	margin: auto;
-	width: 80px;
+	width: 200px;
 }
-
-
-
-
-
-/*button.trigger {
-	margin: 20px;
-	padding: 12px 30px;
-	border: 1px solid white;
-	background-color: #00aced;
-	cursor: pointer;
-	color: white;
-	text-transform: uppercase;
-	margin: 0 auto;
-	display: block;
-	outline: none;
-}
-
-button.trigger:hover {
-	color: #00aced;
-	background-color: white;
-	transition: 0.8s;
-}
-
-button.tweet {
-	padding: 5px 5px;
-	border: 1px solid white;
-	background-color: #00aced;
-	cursor: pointer;
-	color: white;
-	text-transform: uppercase;
-	margin: 20px auto;
-	display: block;
-	outline: none;
-}
-
-button.tweet:hover {
-	color: #00aced;
-	background-color: white;
-	transition: 0.8s;
-}
-
-button.tweet:hover i, button.tweet:hover a {
-	color: #00aced ;
-}
-*/
